@@ -3,6 +3,7 @@ import socket
 
 def scan_router(router_ip):
     print(f"Scanning devices connected to the router with IP: {router_ip}...\n")
+    print("Keep patiine.")
 
     # Define the target IP range based on the router IP
     ip_range = f"{router_ip}/24"
